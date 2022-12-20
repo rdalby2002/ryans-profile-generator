@@ -9,7 +9,7 @@ describe('Initialization', () => {
 });
 
 describe('getSchool', () => {
-  it(`should return intern's school name as a sting`, () => {
+  it(`should return intern's school name as a string`, () => {
     const school = new Intern('Brad', 45, 'brad.stokes@gmail.com', 'UTSA');
 
     expect(school.getSchool()).toEqual('UTSA');

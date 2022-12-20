@@ -18,7 +18,7 @@ describe('getOfficeNo', () => {
 
 describe('getRole', () => {
   it(`should return employee's role as a string`, () => {
-    const manager = new Manager('Brad', 45, 'brad.stokes@gmail.com', 14, 'Manager');
+    const role = new Manager('Brad', 45, 'brad.stokes@gmail.com', 14, 'Manager');
 
     expect(role.getRole()).toEqual('Manager');
   })
